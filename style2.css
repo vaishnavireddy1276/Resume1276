@@ -1,0 +1,132 @@
+body{
+  background: #33FF39;
+}
+.maindiv{
+  width:100%;
+  background: #FF3374 ;
+  display:flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+}
+table>tr>td{
+  padding:1%;
+}
+a{
+  word-wrap: break-word;
+}
+.leftchild{
+  background: #E633FF;
+  width:40%;
+  text-align: center;
+  margin:1%;
+}
+.child2{
+  background: #6B5B98;
+  width: 60%;
+  margin: 1%;
+  padding:1%;
+}
+img{
+  width: 60%;
+  height: 35%;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+}
+h2{
+  color: #DAD520
+}
+h3{
+  color:#20DAD7;
+}
+p{
+  font-size: 20px;
+}
+@media only screen and (max-width:480px){
+  *{
+     font-size: 20px;
+  }
+  .maindiv{
+    width:100%;
+    background-color: orange;
+    display: flex;
+    flex-direction:row;
+
+  }
+  .leftchild{
+    background: blue;
+    text-align: center;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+    /* height:20%;*/
+  }
+  .child2{
+    background-color: #2430E3;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  img{
+    width: 60%;
+    height: 35%;
+    border-radius: 25px
+    border:2px solid #73AD21;
+  }
+  h2{
+    color: #5D6D7E;
+  }
+  h3{
+    color: #Ec7063;
+  }
+  .table-responsive{
+    overflow-x: scroll;
+    width: 90%;
+    margin: 1% auto;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:720px){
+  *{
+    font-size: 20px;
+  }
+  .maindiv{
+    width:100%;
+    background-color: #F0F7BB;
+    display: flex;
+    flex-direction: column;
+  }
+  .leftchild{
+    background: #808080;
+    text-align: center;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  .child2{
+    background:#F58173;
+    width:90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  img{
+    width: 60%;
+    height: 35%;
+    border-radius: 25px;
+    border: 2px solid black;
+  }
+  h2{
+    color: pink;
+  }
+  h3{
+    color: green;
+  }
+  .table-responsive{
+    overflow-x: scroll;
+    width: 90%;
+    margin: 1% auto;
+  }
+
+}
